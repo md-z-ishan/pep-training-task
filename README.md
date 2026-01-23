@@ -1,50 +1,83 @@
-# Simple Calculator
+# 🚀 Training C++ with DSA
 
-A basic C++ calculator program that performs arithmetic operations.
+Welcome to my **C++ + DSA practice repository**.  
+This repo contains all my learning codes from **C++ Basics → Advanced DSA**, including topic-wise implementations and practice problems.
 
-## Features
+---
 
-- Addition (+)
-- Subtraction (-)
-- Multiplication (*)
-- Division (/)
-- Division by zero error handling
+## 🎯 Objective
+- Learn **C++ from scratch to advanced**
+- Master **Data Structures & Algorithms (DSA)**
+- Build strong **problem-solving skills**
+- Prepare for **placements / coding interviews / competitive programming**
 
-## How to Build
+---
 
-Use the provided build task in VS Code:
-```
-C/C++: clang build active file
-```
+## 🛠️ Tools & Setup
+- **Language:** C++
+- **IDE:** VS Code (Mac)
+- **Compiler:** g++ / clang++
+- **Version Control:** Git + GitHub
 
-Or compile manually:
+---
+
+---
+
+## ✅ C++ Topics Covered (Learning Path)
+### 🔹 Basics
+- Variables, Data Types
+- Input / Output (cin, cout)
+- Operators
+- Conditional Statements (if-else, switch)
+- Loops (for, while, do-while)
+- Functions
+
+### 🔹 Intermediate
+- Arrays
+- Strings
+- Pointers & References
+- Structures
+- STL Basics (vector, pair, map, set)
+
+### 🔹 OOP in C++
+- Classes and Objects
+- Constructors / Destructor
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Function Overloading / Overriding
+
+---
+
+## ✅ DSA Topics Covered (Learning Path)
+
+### 🔸 Data Structures
+- Arrays
+- Strings
+- Linked List (SLL/DLL)
+- Stack
+- Queue
+- Trees (Binary Tree, BST)
+- Heap / Priority Queue
+- Hashing
+- Graphs
+
+### 🔸 Algorithms
+- Searching (Linear, Binary)
+- Sorting (Bubble, Selection, Insertion, Merge, Quick)
+- Two Pointers
+- Sliding Window
+- Recursion
+- Backtracking
+- Greedy
+- Dynamic Programming (DP)
+- Graph Algorithms (BFS, DFS)
+
+---
+
+## 🧪 How to Run C++ Code (Mac + VS Code)
+
+### ✅ Compile
 ```bash
-clang -g calc.cpp -o calc
-```
+g++ filename.cpp -o output
 
-## How to Run
-
-```bash
-./calc
-```
-
-## Usage
-
-1. Enter the first number
-2. Enter an operator (+, -, *, /)
-3. Enter the second number
-4. The result will be displayed
-
-## Example
-
-```
-Enter first number: 10
-Enter operator (+, -, *, /): +
-Enter second number: 5
-Result = 15
-```
-
-## Error Handling
-
-- Division by zero: Displays "Error: Division by zero!"
-- Invalid operator: Displays "Invalid operator!"
